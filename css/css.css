@@ -1,0 +1,215 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #005883;
+}
+
+
+li a {
+    display: block;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #e7b200;
+    color: #005883;
+}
+
+li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+li:hover > ul {
+    display: block;
+}
+
+li ul li {
+    position: relative;
+}
+
+li ul li ul {
+    right: -140px;
+    top: 0;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.ix_tb_lg {
+    color: green;
+    font-family: 'Ubuntu', sans-serif;  
+    padding: 2% 0;
+}
+
+h4 {
+    color: red;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;  
+}
+.header {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #005883;
+    width: 95%;
+    height: 100px;
+    clear: both;
+}
+
+.img-header {
+    float: left;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.inf-user {
+    width: 30%;
+    height: 90%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.closeuser {
+    float: right;
+    margin-right: 5px;
+}
+
+.body {
+    font-family: 'Ubuntu', sans-serif;   
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.footer {
+    clear: both;    
+    font-family: 'Ubuntu', sans-serif;   
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-top: 2px solid #005883; 
+}
+
+
+
+tr.clase:nth-child(even) { 
+  background: #FFFFFF
+}
+
+tr.clase:nth-child(odd) { 
+  background: #A9E2F3
+}
+
+.content-wrapper {
+    font-family: 'Ubuntu', sans-serif;   
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    height: 680px;
+    width: 95%;
+}
+
+.cssmenu {
+    float: left;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 17%;
+    height: 70%;
+}
+
+.feeds {
+    float: left;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 45px;
+    margin-right: 5px;
+    width: 17%;
+    height: 70%;
+}
+
+.redes {
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 21%;
+    height: 95%;
+}
+
+.table1 {
+    background-color: black;
+}
+
+.table11 {
+    font-family: 'Ubuntu', sans-serif;   
+    margin-top: 5px;
+    color: white;
+    text-align: left;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 61%;
+    height: 95%;
+}
+
+.table12 {
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 43%;
+    height: 95%;
+}
+
+.table1 td {
+    padding: 20px;
+}
+
+.container {
+    float: left;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 60%;
+    height: 95%;
+} 
+
+select {
+    font-family: 'Ubuntu', sans-serif;   
+    font-size: 11px;
+    min-width: 86px;
+    min-height: 20px;
+    border-width: 2px;
+    border-color: rgba(50, 50, 50, 0.14);
+    
+}
+
+.loading {
+    margin-top: 10em;
+    text-align: center;
+    color: gray;
+}
