@@ -184,7 +184,7 @@ tr.clase:nth-child(odd) {
     height: 95%;
 }
 
-.table1 td {
+.table1 .td {
     padding: 20px;
 }
 
@@ -198,7 +198,7 @@ tr.clase:nth-child(odd) {
     height: 95%;
 } 
 
-select {
+.select {
     font-family: 'Ubuntu', sans-serif;   
     font-size: 11px;
     min-width: 86px;
