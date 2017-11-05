@@ -20,21 +20,21 @@
     color: #005883;
 }
 
-li ul {
+.li ul {
     display: none;
     position: absolute;
     min-width: 140px;
 }
 
-li:hover > ul {
+.li:hover > ul {
     display: block;
 }
 
-li ul li {
+.li ul li {
     position: relative;
 }
 
-li ul li ul {
+.li ul li ul {
     right: -140px;
     top: 0;
 }
@@ -50,7 +50,7 @@ li ul li ul {
     padding: 2% 0;
 }
 
-h4 {
+.h4 {
     color: red;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;  
@@ -111,7 +111,7 @@ h4 {
 
 
 
-tr.clase:nth-child(even) { 
+.tr.clase:nth-child(even) { 
   background: #FFFFFF
 }
 
